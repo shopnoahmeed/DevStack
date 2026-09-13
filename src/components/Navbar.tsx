@@ -2,7 +2,7 @@
 import logo from '../assets/logo-text.png'
 const Navbar = () => {
     return (
-        <nav className="mt-5 container mx-auto px-4 sm:px-6 lg:px-8 flex justify-between text-gray-700">
+        <nav className="sticky mt-5 container mx-auto px-4 sm:px-6 lg:px-8 flex justify-between text-gray-700">
             <div >
                 <img src={logo} alt="" />
             </div>
