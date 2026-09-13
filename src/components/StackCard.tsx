@@ -65,7 +65,7 @@ const StackCard = ({ technology , onAddToStack, isAdded}: StackCardProps) => {
       : "bg-slate-950 text-white hover:bg-slate-800"
   }`}
 >
-  {isAdded ? "✓ Added to Stack" : "Add to Stack"}
+  {!isAdded ? "✓ Add to Stack" : "Added to Stack"}
 </button>
 
     </div>
