@@ -45,7 +45,7 @@ const StackSection = () => {
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
 
           {/* Technologies */}
-          <div className="lg:col-span-2">
+          <div className="lg:col-span-2 mt-5">
 
             <h2 className="text-3xl font-bold">
               Explore the Technologies
