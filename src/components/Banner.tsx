@@ -9,7 +9,7 @@ const Banner = () => {
     Build Your Ideal
   </span>
 
-  <span className="block bg-gradient-to-r from-[#FF4B2B] via-[#E91E63] to-[#8B3DFF] bg-clip-text text-transparent">
+  <span className="block brand-gradient bg-clip-text text-transparent">
     Development Stack
   </span>
 </h1>
@@ -19,7 +19,7 @@ compare them side by side, and put together the stack that fits your
 next project.
 </p>
 <div className='flex gap-10 '>
-    <button className="bg-gradient-to-r from-[#FF4B2B] via-[#E91E63] to-[#8B3DFF] px-6 py-3 rounded-lg text-white">
+    <button className="brand-gradient px-6 py-3 rounded-lg text-white">
   Explore technologies
 </button>
     <button>Learn more</button>

@@ -1,6 +1,7 @@
 
 import './App.css'
 import Banner from './components/Banner'
+import Footer from './components/Footer'
 import Navbar from './components/Navbar'
 import StackSection from './components/StackSection'
 import { Suspense } from 'react'
@@ -22,6 +23,7 @@ function App() {
 >
   <StackSection />
 </Suspense>
+  <Footer />
     </>
   )
 }

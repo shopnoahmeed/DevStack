@@ -1,1 +1,9 @@
-@import "tailwindcss"
+@import "tailwindcss";
+.brand-gradient {
+  background-image: linear-gradient(
+    to right,
+    #ff4b2b,
+    #e91e63,
+    #8b3dff
+  );
+}
